@@ -1,0 +1,31 @@
+.navOptions {
+  margin: 0 1rem;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #00000099;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  min-width: 60px;
+}
+.navOptions:hover {
+  color: #000;
+}
+
+.navOptions > h3 {
+  font-size: 0.8rem;
+  color: #191919;
+  font-weight: 200;
+  padding-top: 0.1rem;
+}
+
+.navOptions > .MuiSvgIcon-root {
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 850px) {
+  .navOptions > h3 {
+    display: none;
+  }
+}

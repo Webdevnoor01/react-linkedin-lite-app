@@ -1,0 +1,74 @@
+.sideBar {
+  flex: 0.22;
+  border-right: 1px solid #00000067;
+  height: 100vh;
+}
+
+.sideBarHeader {
+  width: 90%;
+  height: 23rem;
+  min-height: 10rem;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.header_top {
+  min-height: 4.5rem;
+  background: gray;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.headerTopLlogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2.5rem;
+  line-height: 30px;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.headerTopLlogo .profile_img {
+  font-size: 4.5rem;
+}
+
+.headerTopLlogo h2 {
+  padding-top: 1rem;
+}
+.headerTopConnections {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0.5rem;
+  line-height: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.htcContent > h5 {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.45);
+}
+.htcContent > h6 {
+  font-size: 0.9rem;
+}
+
+.tryPremium {
+  padding: 1rem 0.5rem;
+}
+.tryPremium > p {
+  font-size: 0.7rem;
+  color: rgb(143, 143, 143);
+}
+.tryPremium > h6 {
+  display: flex;
+  align-items: center;
+  font-size: 0.78rem;
+}
+.tryPremium > h6 > .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+.premiumIcon {
+  color: goldenrod;
+}
