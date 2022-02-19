@@ -2,10 +2,7 @@
   flex: 0.22;
   border-right: 1px solid #00000067;
   height: 100vh;
-<<<<<<< HEAD
-=======
   min-width: 200px;
->>>>>>> ed2593ac8264198966b6661cfdca5d753e7d48b2
 }
 
 .sideBarHeader {
@@ -76,8 +73,6 @@
 .premiumIcon {
   color: goldenrod;
 }
-<<<<<<< HEAD
-=======
 
 .sideBarFooter {
   width: 90%;
@@ -153,4 +148,3 @@
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
->>>>>>> ed2593ac8264198966b6661cfdca5d753e7d48b2
