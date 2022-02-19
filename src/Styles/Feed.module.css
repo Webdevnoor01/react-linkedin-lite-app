@@ -1,0 +1,5 @@
+.feed {
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
