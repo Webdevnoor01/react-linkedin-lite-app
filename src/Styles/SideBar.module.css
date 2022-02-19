@@ -2,6 +2,10 @@
   flex: 0.22;
   border-right: 1px solid #00000067;
   height: 100vh;
+<<<<<<< HEAD
+=======
+  min-width: 200px;
+>>>>>>> ed2593ac8264198966b6661cfdca5d753e7d48b2
 }
 
 .sideBarHeader {
@@ -72,3 +76,81 @@
 .premiumIcon {
   color: goldenrod;
 }
+<<<<<<< HEAD
+=======
+
+.sideBarFooter {
+  width: 90%;
+  background: #fff;
+  border-radius: 5px;
+  margin: 1rem 0;
+  min-height: 9.8rem;
+  padding: 0;
+}
+.usefullLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.usefullLinks ul {
+  width: 60%;
+}
+
+.usefullLinks ul li {
+  padding: 0.4rem 0;
+}
+.usefullLinks ul li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #000;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.usefullLinks ul li a:hover {
+  text-decoration: underline;
+  color: #0a66c2;
+}
+
+.usefullLinks > div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.createEvent {
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 100ms ease-in;
+  color: #000;
+}
+.createEvent:hover {
+  background: rgba(0, 0, 0, 0.151);
+  cursor: pointer;
+}
+
+.discoverMore {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  transition: all 200ms ease-in-out;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.discoverMore > h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.discoverMore:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+>>>>>>> ed2593ac8264198966b6661cfdca5d753e7d48b2
