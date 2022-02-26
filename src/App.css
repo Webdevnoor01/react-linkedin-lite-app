@@ -5,10 +5,25 @@
   position: relative;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
 li {
   list-style: none;
+}
+
+
+.galaryIcon{
+  color: #70b5f9;
+}
+ .videoIcon{
+  color:#7fc15e;
+  font-size: 2rem;
+}
+.eventIcon{
+  color:#e7a33e;
+}
+.articleIcon{
+  color:#fc9295;
 }

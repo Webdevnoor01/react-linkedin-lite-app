@@ -1,0 +1,21 @@
+.tweetBoxOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    transition: all 100ms ease-in-out;
+}
+.tweetBoxOption:hover{
+    border-radius: 5px;
+    background-color: #73737336;
+    cursor: pointer;
+}
+
+.tweetBoxOption > h3{
+    padding-left: .5rem;
+    color: #737373;
+    font-size: .9rem;
+}
+.tweetBoxOption > .videoIcon{
+    font-size: 2rem;
+}

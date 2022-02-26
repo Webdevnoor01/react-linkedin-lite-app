@@ -1,0 +1,50 @@
+.tweetBox{
+    min-height: 8rem;
+    background: #fff;
+    border-radius: 8px;
+
+}
+
+.tweetboxHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+.tweetboxHeaderPhofile{
+    width: 10%;
+    padding: .5rem 0;
+}
+.tweetboxHeaderPhofile>  .userImg{
+    font-size: 3rem;
+}
+.tweetboxHeaderInput{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweetboxHeaderInput > input{
+    width: 95%;
+    padding: 1rem 1.1rem;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    
+}
+
+.tweetBoxOptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+/* Icons styling */
+.tweetBoxOptions > .galaryIcon{
+    color: #70b5f9;
+}

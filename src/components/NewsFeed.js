@@ -1,11 +1,15 @@
 import React from 'react'
+import TweetBox from './TweetBox'
 
 
 // Internal imports
 import styles from '../Styles/NewsFeed.module.css'
 function NewsFeed() {
   return (
-    <div className={styles.newsFeed} >Working on news feed section</div>
+    <div className={styles.newsFeed} >
+      <TweetBox/>
+
+    </div>
   )
 }
 
