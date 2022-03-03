@@ -1,0 +1,101 @@
+.postBox{
+    margin: 2rem 0;
+    min-height: 30rem;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+}
+
+/* Post box header styling */
+.postBoxHeader{
+    height: 20%;
+    min-height: 3rem;
+    display: flex;
+    padding: 0 .7rem;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+.postBoxHeader > .headerImg{
+    width: 15%;
+}
+
+.postBoxHeader > .headerImg .userImg{
+    font-size: 4rem;
+    padding: .5rem;
+    color: gray;
+}
+.postBoxHeader > .headerContent{
+width: 85%;
+}
+.postBoxHeader > .headerContent > h3{
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.postBoxHeader > .headerContent > h4{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.postBoxHeader > .headerContent >h5{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+/* Post box content styling */
+.postBoxContent{
+    height: 20%;
+    min-height: 4rem;
+    padding: 0 .7rem;
+    
+}
+.postBoxContent > h2{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
+
+/* Post box Banner (image/video)  styling */
+.postBoxBanner{
+    height: 40%;
+    min-height: 18rem;
+    margin: .5rem 0;
+    
+}
+
+.postBoxBanner > img{
+    max-width: 100%;
+}
+
+
+/* Post box show likes styling */
+.postBoxShowLikes{
+    min-height: 1.5rem;
+    padding: 0 .7rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+/* Post box optins styling */
+
+.postBoxOptions{
+    padding: 0 .7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

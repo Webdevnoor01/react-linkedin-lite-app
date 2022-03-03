@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto:wght@400;500&display=swap');
+
 .app {
   margin: 0;
   padding: 0;
@@ -13,6 +15,12 @@ li {
   list-style: none;
 }
 
+/* you can use this font */
+/* font-family: 'Oxygen', sans-serif; */
+
+h2{
+  font-family: 'Roboto', sans-serif;
+}
 
 .galaryIcon{
   color: #70b5f9;
@@ -26,4 +34,16 @@ li {
 }
 .articleIcon{
   color:#fc9295;
+}
+
+/* like icons styling globaly */
+.simpleLike{
+  color: #70b5f9;
+}
+
+.loveLike{
+  color: rgb(223, 77, 108);
+}
+.angry{
+  color: red;
 }
