@@ -14,6 +14,11 @@
   color: #000;
 }
 
+.navOptions > img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
 .navOptions > h3 {
   font-size: 0.8rem;
   color: #191919;

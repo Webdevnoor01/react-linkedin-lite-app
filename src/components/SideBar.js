@@ -6,7 +6,10 @@ import AddIcon from '@mui/icons-material/Add';
 
 // Internal imports
 import styles from "../Styles/SideBar.module.css";
+import { useAuth } from '../context/authContext'
 function SideBar() {
+  const { currentUser } = useAuth();
+
   return (
     <div className={styles.sideBar}>
       <div className={styles.sideBarHeader}>
@@ -14,7 +17,8 @@ function SideBar() {
 
         <div className={styles.headerTopLlogo}>
           <a href="/">
-            <AccountCircleRoundedIcon className={styles.profile_img} />{" "}
+            {currentUser && currentUser.photoURL ? (<img src={currentUser.photoURL} />) : (<AccountCircleRoundedIcon className={styles.profile_img} />)}
+
           </a>
           <h2>Abdun Noor</h2>
         </div>
@@ -51,7 +55,7 @@ function SideBar() {
             </li>
           </ul>
           <div >
-            <AddIcon className={styles.createEvent}/>
+            <AddIcon className={styles.createEvent} />
           </div>
         </div>
 

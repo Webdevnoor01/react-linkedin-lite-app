@@ -29,9 +29,13 @@
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
+.headerTopLlogo > a > img{
+  border-radius: 50%;
 
+}
 .headerTopLlogo .profile_img {
   font-size: 4.5rem;
+
 }
 
 .headerTopLlogo h2 {
