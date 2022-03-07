@@ -10,10 +10,9 @@ const Login = () => {
 
   useEffect(() => {
     if(currentUser?.displayName){
-      navigate('/home')
+      navigate('/home');
+      return;
     }
-
-    return;
   },[currentUser, navigate])
 
   const handleSubmit = async () =>{
