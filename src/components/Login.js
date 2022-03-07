@@ -14,7 +14,7 @@ const Login = () => {
     }
 
     return;
-  },[currentUser])
+  },[currentUser, navigate])
 
   const handleSubmit = async () =>{
 
