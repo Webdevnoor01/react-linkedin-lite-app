@@ -1,0 +1,128 @@
+.postModal {
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0rem;
+    left: 0;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.postModal>h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+.modalBox {
+    min-height: 25rem;
+    height: 50%;
+    width: 50%;
+    min-width: 22rem;
+    margin-top: 2rem;
+    background: #1d2226;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.modalBoxHeader {
+    display: flex;
+    justify-content: space-between;
+    min-height: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+
+.closeIcon {
+    font-size: 2rem !important;
+    cursor: pointer;
+}
+
+.modalBoxUserInfo {
+    display: flex;
+    align-items: center;
+}
+
+.userIcon {
+    font-size: 3.5rem !important;
+}
+
+.publicIcon {
+    font-size: 1rem;
+}
+
+.whoCanSeeBox {
+    max-width: 7rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 100ms ease-in-out;
+}
+
+.whoCanSeeBox:hover {
+    background: #ffffff47;
+    cursor: pointer;
+}
+
+.modalBoxPostContent>textarea {
+    width: 90%;
+    min-height: 8rem;
+    height: auto;
+    resize: none;
+    background: transparent;
+    margin-top: 2rem;
+    outline: none;
+    /* border: none; */
+    color: #96999a;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.tweetBoxOption {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tweetBoxOptionBox {
+    display: flex;
+    width: 60%;
+}
+
+.tweetBoxPostBtn {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.tweetBoxPostBtn button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: #ffffff1f;
+    color: #ffffff66;
+    cursor: not-allowed;
+}
+
+.activeBtn {
+    cursor: pointer !important;
+    color: #065cb1 !important;
+    background: #70b5f9 !important;
+}
+
+.activeBtn:hover {
+    background-color: #70b4f9e1 !important;
+}

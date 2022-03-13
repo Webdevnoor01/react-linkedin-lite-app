@@ -4,9 +4,11 @@ import { useEffect } from 'react';
 
 // Internal exports
 import Navigation from './Navigation';
+import PostModal from './PostModal';
 import styles from '../Styles/Home.module.css'
 import Feed from './Feed';
 import {useAuth} from '../context/authContext'
+
 export default function Home(){
     const {currentUser} = useAuth();
     const navigate= useNavigate();
@@ -14,7 +16,6 @@ export default function Home(){
     useEffect(() =>{
         if(!currentUser){
             navigate("/");
-
             return;
         }
 
@@ -28,6 +29,7 @@ export default function Home(){
             
             <Navigation />
             <Feed />
+
         </div>
         </>
         
